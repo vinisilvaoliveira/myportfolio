@@ -1,0 +1,61 @@
+@import "../../sass/variables";
+
+.formacao {
+    padding: 60px 0;
+    background: #f9f9f9;
+    &__header {
+        display: flex;
+        justify-content: center;
+        .title {
+            font-size: 36px;
+            font-family: $Poppins;
+            color: $blue;
+            font-weight: bold;
+        }
+    }
+    .time-line {
+        padding: 40px 0;
+        .title {
+            font-size: 16px;
+            font-weight: bold;
+        }
+        .company {
+            font-size: 15px;
+            margin: 20px 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            a {
+                color: #000;
+                margin-left: 10px;
+            }
+        }
+
+        .periodo {
+            color: $blue;
+            text-align: center;
+            font-size: 14px;
+        }
+        .years {
+            text-align: center;
+            font-size: 16px;
+            font-weight: bold;
+            padding: 20px 0;
+        }
+        .cursos {
+            ul {
+                margin-left: 20px;
+                li {
+                    margin: 10px 5px;
+                    list-style: circle;
+                }
+            }
+        }
+    }
+}
+
+::ng-deep {
+    .mgl-timeline-entry-card {
+        border-radius: 11px;
+    }
+}

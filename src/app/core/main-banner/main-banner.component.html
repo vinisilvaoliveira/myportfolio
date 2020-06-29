@@ -1,0 +1,56 @@
+<app-loader *ngIf="loader"></app-loader>
+<section class="main" id="main">
+    <div class="main__img">
+        <app-nav class="main__menu"></app-nav>
+        <div class="main__color">
+            <div class="main__perfil">
+                <div class="main__perfil--description">
+                    <a href="https://www.linkedin.com/in/vinicius-oliveira-89149b136/" target="_blank">
+                        <img src="/assets/mainPerfil.png" alt="logo">
+                        <h1>Vinicius Oliveira</h1>
+                        <h2> {{ languageId === 'PT' ? 'Desenvolvedor Front End' : 'Front End Developer'
+                        }}</h2>
+                    </a>
+                </div>
+                <div class="button">
+                    <button
+                        class="button__btn">{{ languageId === 'PT' ? 'Baixar Currículo' : 'Download Curriculum' }}</button>
+                </div>
+            </div>
+            <div class="slideshow-container">
+                <div class="mySlides">
+                    <p class="title">Francieli Mendes - <span>Prevent Senior</span></p>
+                    <p class="description">" Profissioional dedicado, entrega sempre nos prazo estipulado."</p>
+                </div>
+                <div class="mySlides">
+                    <p class="title">Fulano Oliveira - <span>Empresa teste</span></p>
+                    <p class="description">"Trabalhamos em equipe no projeto TESTE e sem a ajuda do Teste, Não
+                        coseguiriamos entregar"</p>
+                </div>
+                <div class="mySlides">
+                    <p class="title">Ciclano abigobaldo - <span>Bit seguros</span></p>
+                    <p class="description">"Teste de mensagem Lorem Ipson Teste de mensagem Lorem Ipson Teste de
+                        mensagem
+                        Lorem Ipson Teste de mensagem Lorem Ipson"
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<div id="about">
+    <app-about></app-about>
+</div>
+<div id="academic">
+    <app-formacao></app-formacao>
+</div>
+<div id="knowledge">
+    <app-knowledge></app-knowledge>
+</div>
+<div id="contact">
+    <app-contact></app-contact>
+</div>
+<div id="footer">
+    <app-footer></app-footer>
+</div>
