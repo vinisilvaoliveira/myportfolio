@@ -20,13 +20,13 @@ export class NavComponent implements OnInit {
     this.languague = [
       {
         id: 'PT',
-        img: './../../../assets/bandeiraPT.jpg',
+        img: 'https://i.ibb.co/0ZsX49C/bandeira-PT.jpg',
         legend: 'Português',
 
       },
       {
         id: 'EN',
-        img: './../../../assets/bandeiraENG.jpg',
+        img: 'https://i.ibb.co/M6wNVkf/bandeira-ENG.jpg',
         legend: 'English',
       }
     ]

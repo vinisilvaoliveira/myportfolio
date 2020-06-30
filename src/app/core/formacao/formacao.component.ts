@@ -42,7 +42,7 @@ export class FormacaoComponent implements OnInit {
       yearsEN: 'Graduated - 2019',
       periodo: '2018 - 2019',
       link: 'https://www.uninove.br/unidade/memorial/',
-      logo: '/assets/logo-uninove.png'
+      logo: 'https://i.ibb.co/qj5M4KM/logo-uninove.png'
     },
     {
       header: 'Ingles',
@@ -52,7 +52,7 @@ export class FormacaoComponent implements OnInit {
       yearsEN: 'Graduated - 2023',
       periodo: '2019 - 2023',
       link: 'http://www.lexisidiomas.com/',
-      logo: '/assets/logo-lexis.png'
+      logo: 'https://i.ibb.co/gDjtvVX/logo-lexis.png'
     },
     {
       header: 'Cursos Udemy',
@@ -62,7 +62,7 @@ export class FormacaoComponent implements OnInit {
       yearsEN: 'Graduated - 2023',
       periodo: null,
       link: 'https://www.udemy.com/',
-      logo: '/assets/logo-udemy.png',
+      logo: 'https://i.ibb.co/ykQhbKd/logo-udemy.png',
 
       cursos: [
         {
