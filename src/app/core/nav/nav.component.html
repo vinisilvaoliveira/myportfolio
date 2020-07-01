@@ -57,6 +57,9 @@
             </button>
 
         </li>
+        <div class="hidden-lg hidden-md col-sm-2 col-xs-2 positionMenu">
+            <app-button-burger></app-button-burger>
+        </div>
     </ul>
     <ul class="networks">
         <li>
@@ -91,11 +94,15 @@
                     </svg></i></a>
         </li>
     </ul>
-    <!-- <app-button-burger></app-button-burger> -->
+
 
 </div>
 
-<nav class="menu">
+<div class="hidden-lg hidden-md col-sm-2 col-xs-2 positionMenu" *ngIf="!showButton">
+    <app-button-burger></app-button-burger>
+</div>
+
+<nav class="menu hidden-sm hidden-xs">
     <ul>
         <li (click)="scrollToElement('about')">
             <a>{{ languageId === 'PT' ? 'Sobre' : 'About' }}</a>

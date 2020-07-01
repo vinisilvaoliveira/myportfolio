@@ -24,6 +24,7 @@ import { AboutComponent } from './core/about/about.component';
 import { FooterComponent } from './core/footer/footer.component';
 import { NavComponent } from './core/nav/nav.component';
 import { CommonService } from './services/common.service';
+import { ButtonBurgerComponent } from './shared/components/button-burger/button-burger.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -35,7 +36,8 @@ import { CommonService } from './services/common.service';
     KnowledgeComponent,
     ContactComponent,
     AboutComponent,
-    FooterComponent
+    FooterComponent,
+    ButtonBurgerComponent
   ],
   imports: [
     BrowserModule,

@@ -49,8 +49,14 @@
             </div>
 
             <div class="button">
-                <button class="button__btn">{{ languageId  === 'PT' ? 'Enviar' : 'Send' }}</button>
+                <button class="button__btn" (click)="onClick()">{{ languageId  === 'PT' ? 'Enviar' : 'Send' }}</button>
             </div>
         </div>
     </div>
 </div>
+
+<app-loader *ngIf="loader"></app-loader>
+<app-lightbox *ngIf="modal" (onClick)="modal = ''" class="infos__lightbox">
+
+    {{modal}}
+</app-lightbox>

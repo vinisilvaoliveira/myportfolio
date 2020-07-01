@@ -1,5 +1,6 @@
 import { Component, OnInit, Renderer2 } from '@angular/core';
 import { CommonService } from 'src/app/services/common.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-main-banner',
@@ -16,7 +17,8 @@ export class MainBannerComponent implements OnInit {
   loader: boolean;
   constructor(
     private renderer: Renderer2,
-    private commonLanguage: CommonService
+    private commonLanguage: CommonService,
+    private router: Router,
   ) { }
 
   ngOnInit(): void {
@@ -71,5 +73,11 @@ export class MainBannerComponent implements OnInit {
       this.showSlides();
     }, 6000);
   }
+
+  onClick() {
+    console.log("foi");
+    this.router.navigate(['https://drive.google.com/file/d/1jCc-m24HaUbHHV6iilLJCcp4W064YnuU/view?usp=sharing']);
+  }
+
 
 }

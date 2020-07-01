@@ -135,3 +135,101 @@
         }
     }
 }
+
+@media screen and (max-width: 768px) {
+    // #menuFixo {
+    //     display: none;
+    // }
+    #menuFixo {
+        z-index: 10;
+        background: rgba(0, 0, 0, 0.7);
+        width: 100%;
+        position: fixed;
+        right: 0;
+        top: -7px;
+        display: flex;
+        justify-content: space-between;
+        .languages {
+            display: flex;
+            width: 63%;
+            position: initial;
+            flex-direction: initial;
+            top: initial;
+            left: initial;
+            padding: inherit;
+            li {
+                .btn {
+                    padding: 8px 64px;
+                    span {
+                        color: $white;
+                        &:hover {
+                            color: $blue;
+                        }
+                    }
+                }
+            }
+        }
+        .networks {
+            display: flex;
+            width: 50%;
+            justify-content: space-around;
+            position: initial;
+            flex-direction: initial;
+            top: initial;
+            left: initial;
+            padding: inherit;
+        }
+    }
+    .headerButons {
+        display: none;
+    }
+    .positionMenu {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        z-index: 101;
+        width: 100%;
+        right: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .idioma {
+        ul {
+            li {
+                .btn {
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+    #menuFixo {
+        z-index: 10;
+        background: rgba(0, 0, 0, 0.7);
+        width: 100%;
+        position: fixed;
+        right: 0;
+        top: -7px;
+        display: flex;
+        justify-content: space-between;
+        .languages {
+            width: 75%;
+            li {
+                .btn {
+                    padding: 7px;
+                    width: 70px;
+                }
+            }
+        }
+        .networks {
+            display: flex;
+            width: 50%;
+            justify-content: space-around;
+            position: initial;
+            flex-direction: initial;
+            top: initial;
+            left: initial;
+            padding: inherit;
+        }
+    }
+}

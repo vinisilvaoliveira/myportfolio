@@ -22,3 +22,21 @@
         cursor: pointer;
     }
 }
+
+@media screen and (max-width: 600px) {
+    .footer {
+        &__items {
+            flex-direction: column;
+            &--small {
+                margin-bottom: 15px;
+                margin-right: 0;
+            }
+            .links {
+                display: flex;
+            }
+        }
+        &__up {
+            margin-top: -23px;
+        }
+    }
+}

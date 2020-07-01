@@ -15,6 +15,9 @@ export class ContactComponent implements OnInit {
   placeEmail: string = 'meuemail@dominio.com';
   placeMsg: string = 'Digite sua Mensagem ...';
 
+  loader: boolean;
+  modal: string;
+
   ngOnInit(): void {
     this.commonLanguage.emitirlanguage.subscribe(
       ev => {
@@ -30,6 +33,14 @@ export class ContactComponent implements OnInit {
         }
       }
     );
+  }
+
+  onClick() {
+    this.loader = true;
+    setTimeout(() => {
+      this.modal = 'E-mail enviado com sucesso!';
+      this.loader = false;
+    }, 2000);
   }
 
 }
