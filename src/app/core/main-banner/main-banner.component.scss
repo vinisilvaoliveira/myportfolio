@@ -42,9 +42,11 @@
             }
             @media screen and (max-width: 1600px) {
                 left: 37%;
+                bottom: 30%;
             }
-            @media screen and (max-width: 1366px) {
+            @media screen and (min-width: 1366px) {
                 bottom: 32%;
+                bottom: 30%;
             }
         }
         &::after {
@@ -56,13 +58,13 @@
             // bottom: 29%;
             @media screen and (min-width: 800px) {
                 right: 28%;
+                bottom: 30%;
             }
             @media screen and (min-width: 1024px) {
                 right: 30%;
             }
             @media screen and (max-width: 1280px) {
                 right: 29%;
-                bottom: 39%;
             }
             @media screen and (max-width: 1366px) {
                 right: 29%;
@@ -70,9 +72,11 @@
             }
             @media screen and (min-width: 1440px) {
                 right: 32%;
+                bottom: 29%;
             }
             @media screen and (min-width: 1600px) {
                 right: 34%;
+                bottom: 30%;
             }
         }
     }
