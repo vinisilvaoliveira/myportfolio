@@ -272,6 +272,9 @@
 
 @media screen and (max-width: 600px) {
     .main {
+        &__img {
+            background-position: 79%;
+        }
         &__color {
             &::before {
                 left: 2%;

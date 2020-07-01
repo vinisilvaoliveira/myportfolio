@@ -25,7 +25,7 @@ export class FormacaoComponent implements OnInit {
 
   entries = [
     {
-      header: 'Analise e Desenvolvimento de Sistemas',
+      header: 'Análise e Desenvolvimento de Sistemas',
       headerEN: 'Analysis and systems development',
       company: 'Universidade Nove de Julho - Barra Funda',
       years: 'Formado - 2018',
@@ -45,7 +45,7 @@ export class FormacaoComponent implements OnInit {
       logo: 'https://i.ibb.co/qj5M4KM/logo-uninove.png'
     },
     {
-      header: 'Ingles',
+      header: 'Inglês',
       headerEN: 'English',
       company: 'Lexis Idiomas',
       years: 'Formação - 2023',
