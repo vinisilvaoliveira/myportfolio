@@ -66,6 +66,12 @@ export class FormacaoComponent implements OnInit {
 
       cursos: [
         {
+          udemy: 'Inglês Extremo - Curso Completo do Zero à Fluência',
+        },
+        {
+          udemy: 'Curso de Desenvolvimento WEB com ES6, TypeScript e Angular',
+        },
+        {
           udemy: 'Curso moderno com JavaScript',
         },
         {
